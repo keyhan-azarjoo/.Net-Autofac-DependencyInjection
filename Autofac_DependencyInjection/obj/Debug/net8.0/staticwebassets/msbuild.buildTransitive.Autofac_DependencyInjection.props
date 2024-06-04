@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Autofac_DependencyInjection.props" />
+</Project>
