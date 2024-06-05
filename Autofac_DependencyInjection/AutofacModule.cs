@@ -9,6 +9,12 @@ namespace Autofac_DependencyInjection
         protected override void Load(ContainerBuilder builder)
         {
             // Register your services here
+
+
+            // Using Dependency injection allows you to change your classes whenever you like by just changing SampleService to a betterSampleService and change the SampleService to betterSampleService here
+            //Furthermore you can test your code with any data you like without changing the real data. You just need to pass yourConfiguration instead of MyConfiguration in the unitest, which is really easy.
+
+
             
             // If your services count is not many you can register them one by one here 
             //but if the number of your classes are many and it is hard to register them one by one you can use the other code at the end of this page
